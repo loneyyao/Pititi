@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ptt_group_layout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingLeft="15dp"
+    android:paddingRight="15dp"
+    android:paddingTop="9dp"
+    android:clickable="true"
+    android:background="@drawable/rc_ptt_selector_group_bg"
+    android:paddingBottom="9dp"
+    android:focusable="true">
+
+    <ImageView
+        android:id="@+id/img_group_avatar"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:src="@drawable/rc_ptt_cancel_quite_normal" />
+
+    <TextView
+        android:id="@+id/ptt_group_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="15dp"
+        android:layout_marginStart="15dp"
+        android:layout_toEndOf="@id/img_group_avatar"
+        android:layout_toRightOf="@id/img_group_avatar"
+        android:textColor="#FF333333"
+        android:textSize="14sp"
+        android:text="海明达项目组" />
+
+    <CheckBox
+        android:id="@+id/ptt_checkbox"
+        android:layout_width="17dp"
+        android:layout_height="17dp"
+        android:clickable="false"
+        android:button="@null"
+        android:background="@drawable/rc_ptt_selector_group_checkbox"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true" />
+</RelativeLayout>

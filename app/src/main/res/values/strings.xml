@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">pttkit</string>
+    <string name="rc_ptt_current_group_info">当前守候组名(%1$d/%2$d)</string>
+    <string name="rc_ptt_people">%1$d人正在对讲</string>
+    <string name="rc_ptt_urgent_people">%1$d人紧急呼叫</string>
+    <string name="rc_ptt_view_member">查看成员</string>
+    <string name="rc_ptt_speaker">%1$s-正在对讲</string>
+    <string name="rc_ptt_alert">您已经被拉入：</string>
+    <!--<string name="rc_ptt_alert_countdown"> <font color='#FF0000'>%1$d s</font></string>-->
+    <string name="rc_ptt_alert_countdown"> <![CDATA[阿四大四大艾什顿<font color="#0195FF">%1$dS</font>后进入<br/>]]></string>
+    <!--<string name="rc_ptt_alert_countdown">点击上面\"注册\"按钮，即表示您同意《<a href="http://www.rongcloud.cn"><font color="#3A91F3">融云企业版服务协议</font></a>》和《<a href="http://www.rongcloud.cn"><font color="#3A91F3">隐私协议</font></a>》</string>-->
+
+</resources>
